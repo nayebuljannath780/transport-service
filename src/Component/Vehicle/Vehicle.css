@@ -1,0 +1,19 @@
+.vehicleDetails {
+    border: 1px solid grey;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 1%;
+}
+
+.vehicleDetails img {
+    width: 200px;
+}
+.vehicleDetails a{
+    text-decoration: none;
+    color: black;
+}

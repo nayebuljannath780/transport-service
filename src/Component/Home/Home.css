@@ -1,0 +1,11 @@
+/* .home-container{
+    background-image: url('../../images/Bg.png');
+} */
+
+.vehicle-container {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.nav img{
+    height: 30px;
+    margin-right: 350px;
+}
+.nav ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+} 
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

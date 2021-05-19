@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Bike",
+        "cost": 150,
+        "people": "https://i.ibb.co/wQ3kccG/peopleicon.png",
+        "img": "https://i.ibb.co/VJ03xGS/Frame.png"
+    },
+    {
+        "id": 2,
+        "name": "Train",
+        "cost": 50,
+        "people": "https://i.ibb.co/wQ3kccG/peopleicon.png",
+        "img": "https://i.ibb.co/K51r1xd/Group.png"
+    },
+    {
+        "id": 3,
+        "name": "Bus",
+        "cost": 70,
+        "people": "https://i.ibb.co/wQ3kccG/peopleicon.png",
+        "img": "https://i.ibb.co/y5xNZcs/Frame-1.png"
+    },
+    {
+        "id": 4,
+        "name": "Car",
+        "cost": 200,
+        "people": "https://i.ibb.co/wQ3kccG/peopleicon.png",
+        "img": "https://i.ibb.co/FXGVx27/Frame-2.png"
+    }
+]
