@@ -192,8 +192,7 @@ const Login = () => {
                 var errorMessage = error.message;
                 console.log(errorMessage)
                 var email = error.email;
-                console.log(email)
-                var credential = error.credential;
+                console.log(email);
             });
     }
     return (
