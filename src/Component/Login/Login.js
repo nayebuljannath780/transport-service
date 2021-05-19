@@ -14,7 +14,7 @@ if (!firebase.apps.length) {
 
 const Login = () => {
     const [newUser, setNewUser] = useState(false);
-    const [loggedInUser, setLoggedInUser] = useContext(userContext);
+    const [ setLoggedInUser ] = useContext(userContext);
     let history = useHistory();
     let location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } }
@@ -166,8 +166,6 @@ const Login = () => {
                 console.log(errorCode)
                 var errorMessage = error.message;
                 console.log(errorMessage)
-                var email = error.email;
-                var credential = error.credential;
 
             });
     }

@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
 const Header = () => {
     const [loggedInUser,setLoggedInUser] = useContext(userContext)
     const classes = useStyles();
-    const history = useHistory()
     return (
         <div className="header">
             <nav className="nav">

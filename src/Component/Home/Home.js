@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import fakeData from '../../fakeData/fakeData.json'
 import Vehicle from '../Vehicle/Vehicle';
-import bg from '../../images/Bg.png'
 
 const Home = () => {
     const [vehicle, setVehicle] = useState([])
