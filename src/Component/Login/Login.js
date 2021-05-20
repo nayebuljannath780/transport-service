@@ -14,7 +14,7 @@ if (!firebase.apps.length) {
 
 const Login = () => {
     const [newUser, setNewUser] = useState(false);
-    const [ setLoggedInUser ] = useContext(userContext);
+    const [ loggedInUser,setLoggedInUser ] = useContext(userContext);
     let history = useHistory();
     let location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } }
@@ -30,6 +30,7 @@ const Login = () => {
     const googleProvider = new firebase.auth.GoogleAuthProvider();
     const facebookProvider = new firebase.auth.FacebookAuthProvider();
     ///////////// /////////////////// //////////////// ////////////
+    
     const handleSignIn = () => {
         firebase.auth().signInWithPopup(googleProvider)
             .then(res => {
@@ -87,8 +88,8 @@ const Login = () => {
     ////////////////// //////////////////// ///////////// ///////////// ////////////// /////
     const handleSubmit = (e) => {
         // console.log(user.email ,user.password)
-        if (newUser && user.name && user.email && user.password) {
-            firebase.auth().createUserWithEmailAndPassword(user.name, user.email, user.password)
+        if (newUser &&  user.email && user.password) {
+            firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
                 .then(res => {
                     // Signed in 
                     const newUserInfo = { ...user };
