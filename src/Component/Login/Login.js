@@ -185,6 +185,7 @@ const Login = () => {
                     photo: photoURL
                 }
                 setUser(singedInUser);
+                // console.log(singedInUser);
                 setLoggedInUser(singedInUser)
                 history.replace(from)
             }).catch((error) => {
